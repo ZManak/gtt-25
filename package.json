@@ -1,8 +1,8 @@
 {
   "name": "landing-gtt-front",
   "version": "0.1.0",
-  "private": false,
   "dependencies": {
+    "@adminjs/express": "^5.1.0",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@headlessui/react": "^1.7.13",
@@ -10,10 +10,12 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
+    "adminjs": "^6.8.7",
     "autoprefixer": "^10.4.14",
+    "express": "^4.18.2",
+    "firebase": "^9.17.2",
     "flowbite": "^1.6.4",
     "flowbite-react": "^0.4.2",
-    "firebase": "^9.17.2",
     "framer-motion": "^6.5.1",
     "normalize.css": "^8.0.1",
     "postcss": "^8.4.21",
@@ -49,5 +51,6 @@
   "devDependencies": {
     "create-react-component-folder": "^0.3.7",
     "nodemon": "^2.0.21"
-  }
+  },
+  "packageManager": "yarn@3.5.0"
 }
