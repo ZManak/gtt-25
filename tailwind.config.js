@@ -6,16 +6,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#2D3748',
-        secondary: '#718096',
-        tertiary: '#A0AEC0',
-        accent: '#E53E3E',
-        success: '#38A169',
-        warning: '#F6AD55',
-        danger: '#DC2626',
-        info: '#6B7280',
-        yellow: '#F2A200'
+        yellow: '#F2A200',
+        yellow2: '#FFDD99',
+        green: '#30423C'
       },
+      spacing: {
+        "148": "37rem",
+        "233": "58.375rem",
+        "100": "25rem"
+      },
+      margin: {
+        "934px": "934px",
+        "631px": "631px",
+        "348px": "348px",
+        "450px": "450px",
+        "475px": "475px"
+      }
     },
   },
   plugins: [require('flowbite-react')],

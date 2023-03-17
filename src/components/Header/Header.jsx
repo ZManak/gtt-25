@@ -5,13 +5,16 @@ import favorite from '../../assets/favorite.svg';
 const Header = () => {
   return (
     <header className="w-screen h-36 absolute flex items-center h-16">
-      <img
-        className="w-34 h-16 ml-40"
-        src={logo}
-        alt="Logo 25 aniversario GTT"
-      />
-
-      <nav className="flex flex-row items-start gap-5 w-8/12 ml-20 mt-3">
+      <a
+        href="/"
+        className="absolute w-34 h-16 ml-40"
+      >
+        <img
+          src={logo}
+          alt="Logo 25 aniversario GTT"
+        />
+      </a>
+      <nav className="absolute flex flex-row items-start gap-5 w-934px ml-348px mt-3">
         <a
           href="/"
           className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mx-3"

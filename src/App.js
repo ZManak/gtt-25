@@ -1,7 +1,7 @@
 import './index.css'
 import React from 'react';
 import Main from './components/Main';
-import FooterOne from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -32,7 +32,7 @@ function App() {
         <BrowserRouter>
           <Header />
           <Main />
-          <FooterOne />
+          <Footer />
         </BrowserRouter>
       </div>
     </FirestoreProvider>
