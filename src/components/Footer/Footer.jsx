@@ -6,7 +6,7 @@ import favorite from '../../assets/favorite.svg';
 
 const Footer = () => {
   return (
-    <footer className="w-screen text-white flex h-148 bg-green">
+    <footer className="w-[1368px] rounded-[32px] text-white flex h-148 bg-green mx-6 mb-10">
       <section className="w-96 h32 flex flex-col items-start gap-4 ml-32 mt-20 absolute">
         <p className="text-2xl font-['Poppins'] font-medium">gTt</p>
         <div className="flex flex-row items-start gap-6 mt-2 text-xs font-['Roboto'] font-normal">
