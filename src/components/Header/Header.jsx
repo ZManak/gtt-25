@@ -14,7 +14,7 @@ const Header = () => {
           alt="Logo 25 aniversario GTT"
         />
       </a>
-      <nav className="absolute flex flex-row items-start gap-5 w-934px ml-348px mt-3">
+      <nav className="absolute flex flex-row items-start gap-5 w-934 ml-[348px] mt-3">
         <a
           href="/"
           className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mx-3"

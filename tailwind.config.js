@@ -8,7 +8,10 @@ module.exports = {
       colors: {
         yellow: '#F2A200',
         yellow2: '#FFDD99',
-        green: '#30423C'
+        green: '#30423C',
+        orange: '#E6570B',
+        orange2: '#FABE9E',
+        orange3: '#FDE9DF'
       },
       spacing: {
         "148": "37rem",
@@ -16,11 +19,12 @@ module.exports = {
         "100": "25rem"
       },
       margin: {
-        "934px": "934px",
-        "631px": "631px",
-        "348px": "348px",
-        "450px": "450px",
-        "475px": "475px"
+        "934": "934px",
+        "631": "631px",
+        "348": "348px",
+        "450": "450px",
+        "475": "475px",
+        "1368": "1368px"
       }
     },
   },

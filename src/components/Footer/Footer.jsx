@@ -7,7 +7,7 @@ import favorite from '../../assets/favorite.svg';
 const Footer = () => {
   return (
     <footer className="w-screen text-white flex h-148 bg-green">
-      <section className="w-96 h32 flex flex-col items-start gap-4 ml-32 mt-20">
+      <section className="w-96 h32 flex flex-col items-start gap-4 ml-32 mt-20 absolute">
         <p className="text-2xl">gTt</p>
         <div className="flex flex-row items-start gap-6 mt-6 text-xs">
           <p>
@@ -63,11 +63,11 @@ const Footer = () => {
       <section className="absolute ml-32 mt-72 w-96 h-16">
         <p className="font-medium text-base">Suscríbete a nuestra newsletter</p>
         <form action="/" className="mt-6">
-          <input type="text" class="w-64 bg-transparent border-b-2 border-white text-white opacity-60 focus:outline-none focus:border-blue-500" placeholder="email" />
+          <input type="text" className="w-64 bg-transparent border-b-2 border-white text-white opacity-60 focus:outline-none focus:border-blue-500" placeholder="email" />
           <button type="submit" className="bg-yellow2 text-black rounded-2xl w-16 h-6 ml-3 font-normal text-xs">ENVIAR</button>
         </form>
       </section>
-      <nav className="absolute w-44 h-36 ml-631px mt-20 flex flex-col items-start gap-2 font-medium text-sm">
+      <nav className="absolute w-44 h-36 ml-[631px] mt-20 flex flex-col items-start gap-2 font-medium text-sm">
         <a
           href="/"
           className=""
@@ -93,7 +93,7 @@ const Footer = () => {
           href="/"
           className=""
         >
-          Noticias
+          Actualidad
         </a>
         <a
           href="/"
@@ -102,8 +102,8 @@ const Footer = () => {
           Conócenos
         </a>
       </nav>
-      <p className="absolute text-xs font-normal mt-450px ml-32">© gTt - Grupo de Trabajo sobre Tratamientos del VIH</p>
-      <p className="absolute text-xs font-normal mt-475px ml-32 underline">Contacto | Mapa del sitio | Aviso legal | Política de privacidad | Política de cookies | Licencia CreativeCommons | Accesibilidad</p>
+      <p className="absolute text-xs font-normal mt-[450px] ml-32">© gTt - Grupo de Trabajo sobre Tratamientos del VIH</p>
+      <p className="absolute text-xs font-normal mt-[475px] ml-32 underline">Contacto | Mapa del sitio | Aviso legal | Política de privacidad | Política de cookies | Licencia CreativeCommons | Accesibilidad</p>
     </footer>
   )
 };

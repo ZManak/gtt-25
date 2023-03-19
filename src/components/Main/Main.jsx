@@ -4,10 +4,8 @@ import Home from './Home/Home';
 
 export default function Main() {
     return (
-        <main>
-            <Routes>
-                <Route element={<Home />} path="/" />
-            </Routes>
-        </main>
+        <Routes>
+            <Route element={<Home />} path="/" />
+        </Routes>
     )
 }
