@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <footer className="w-screen text-white flex h-148 bg-green">
       <section className="w-96 h32 flex flex-col items-start gap-4 ml-32 mt-20 absolute">
-        <p className="text-2xl">gTt</p>
-        <div className="flex flex-row items-start gap-6 mt-6 text-xs">
+        <p className="text-2xl font-['Poppins'] font-medium">gTt</p>
+        <div className="flex flex-row items-start gap-6 mt-2 text-xs font-['Roboto'] font-normal">
           <p>
             Desde 1997 ayudamos a la gente con sida Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
           </p>
@@ -18,8 +18,8 @@ const Footer = () => {
           </p>
         </div>
       </section>
-      <section className="w-48 h-16 ml-233 mt-20 absolute">
-        <p className="font-medium text-base">Nos puedes encontrar en:</p>
+      <section className="w-[211px] h-16 ml-233 mt-20 absolute">
+        <p className="font-medium text-base font-['Poppins']">Nos puedes encontrar en:</p>
         <div className="w-32 flex gap-2.5 mt-3">
           <a
             href="https://www.facebook.com/gtt.vih/"
@@ -47,7 +47,7 @@ const Footer = () => {
           </a>
         </div>
       </section>
-      <section className="ml-233 mt-80 absolute">
+      <section className="ml-233 mt-80 absolute ">
         <a
           href="/"
           className="w-44 h-12 bg-yellow flex flex-row justify-center items-center pt-2 pb-5 pl-2 pr-6 gap-2.5 rounded-lg"
@@ -63,13 +63,13 @@ const Footer = () => {
       <section className="absolute ml-32 mt-72 w-96 h-16">
         <p className="font-medium text-base">Suscríbete a nuestra newsletter</p>
         <form action="/" className="mt-6">
-          <input type="text" className="w-64 bg-transparent border-b-2 border-white text-white opacity-60 focus:outline-none focus:border-blue-500" placeholder="email" />
-          <button type="submit" className="bg-yellow2 text-black rounded-2xl w-16 h-6 ml-3 font-normal text-xs">ENVIAR</button>
+          <input type="text" className="w-64 bg-transparent border-b-2 border-white text-white opacity-60 placeholder:text-white focus:outline-none focus:border-blue-500" placeholder="email" />
+          <button type="submit" className="bg-yellow2 text-black rounded-2xl w-16 h-6 ml-3 font-normal text-xs font-['Poppins']">ENVIAR</button>
         </form>
       </section>
-      <nav className="absolute w-44 h-36 ml-[631px] mt-20 flex flex-col items-start gap-2 font-medium text-sm">
+      <nav className="absolute w-44 h-36 ml-[631px] mt-20 flex flex-col items-start gap-2 font-medium text-sm font-['Poppins']">
         <a
-          href="/"
+          href="/sobre-el-vih"
           className=""
         >
           Sobre el VIH
@@ -102,8 +102,8 @@ const Footer = () => {
           Conócenos
         </a>
       </nav>
-      <p className="absolute text-xs font-normal mt-[450px] ml-32">© gTt - Grupo de Trabajo sobre Tratamientos del VIH</p>
-      <p className="absolute text-xs font-normal mt-[475px] ml-32 underline">Contacto | Mapa del sitio | Aviso legal | Política de privacidad | Política de cookies | Licencia CreativeCommons | Accesibilidad</p>
+      <p className="absolute text-xs font-normal mt-[450px] ml-32 font-['Roboto']">© gTt - Grupo de Trabajo sobre Tratamientos del VIH</p>
+      <p className="absolute text-xs font-normal mt-[475px] ml-32 underline font-['Roboto']">Contacto | Mapa del sitio | Aviso legal | Política de privacidad | Política de cookies | Licencia CreativeCommons | Accesibilidad</p>
     </footer>
   )
 };

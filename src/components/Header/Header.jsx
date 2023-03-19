@@ -14,37 +14,37 @@ const Header = () => {
           alt="Logo 25 aniversario GTT"
         />
       </a>
-      <nav className="absolute flex flex-row items-start gap-5 w-934 ml-[348px] mt-3">
+      <nav className="absolute flex flex-row items-start gap-5 w-934 ml-[348px] mt-3 font-['Poppins'] font-medium text-sm leading-5">
         <a
-          href="/"
-          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mx-3"
+          href="/sobre-el-vih"
+          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md mx-3"
         >
           Sobre el VIH
         </a>
 
         <a
           href="/"
-          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mx-3"
+          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md mx-3"
         >
           Te ayudamos
         </a>
 
         <a
           href="/"
-          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mx-3"
+          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md mx-3"
         >
           Comunidad
         </a>
 
         <a
           href="/"
-          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mx-3"
+          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md mx-3"
         >
           Actualidad
         </a>
         <a
           href="/"
-          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium mx-3"
+          className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md mx-3"
         >
           Conócenos
         </a>
@@ -67,7 +67,7 @@ const Header = () => {
             src={favorite}
             alt="Corazón"
           />
-          <span className="text-white w-13 h-5 font-medium text-sm leading-5 mt-2.5">DONAR</span>
+          <span className="text-white w-13 h-5 mt-2.5">DONAR</span>
         </a>
       </nav>
     </header>
