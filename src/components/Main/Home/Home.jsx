@@ -1,6 +1,8 @@
 import group1 from '../../../assets/group1.svg';
 import send from '../../../assets/send.svg';
 import favorite from '../../../assets/favorite.svg';
+import destacamos from '../../../assets/destacamos.svg';
+import verMas from '../../../assets/verMas.svg';
 
 export default function Home() {
   return (
@@ -42,6 +44,15 @@ export default function Home() {
             alt="Corazón"
           />
           <span className="text-white w-13 h-5 mt-2.5">DONAR</span>
+        </a>
+      </section>
+      <section className='w-[1128px] h-[434px] my-6 ml-[156px]'>
+        <p className='absolute h-[45px] font-["Poppins"] font-bold text-[35.89px] text-green'>Este mes destacamos</p>
+        <img src={destacamos} alt="Derechos, envejecimiento y VIH" className='absolute mt-[69px]' />
+        <p className='absolute w-[454px] h-[38px] mt-[69px] ml-[672px] font-["Poppins"] font-medium text-[26px] leading-[38px]'>Derechos, envejecimiento y VIH</p>
+        <p className='absolute w-[454px] h-[90px] mt-[123px] ml-[672px] font-["Roboto"] font-medium text-[22px]'>Programa de capacitación en derechos civiles, políticos y sociales, para personas mayores con el VIH</p>
+        <a href="/">
+          <img src={verMas} alt="Ver más" className='absolute mt-[261px] ml-[672px]' />
         </a>
       </section>
     </main>
