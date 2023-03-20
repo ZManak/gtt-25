@@ -13,7 +13,6 @@ export default function Home() {
         <p className='absolute text-xl text-green font-medium w-[509px] ml-[120px] mt-[207px]'>Sabemos que recibir un diagnóstico de VIH puede ser abrumador y puede haber muchas preguntas que surjan. Pero no estás sol@. Estamos aquí para ayudarte y brindarte información veraz y útil.</p>
         <p className='absolute text-xl text-green font-bold w-[250px] ml-[120px] mt-[340px]'>Pregunta lo que quieras:</p>
         <p className='absolute text-[62px] text-orange font-bold ml-[120px] mt-[102px]'>Chat gTt</p>
-        <p className='absolute text-[36px] text-yellow font-semibold ml-[120px] mt-[60px]'>Chat gTt</p>
       </section>
     </main>
   )
