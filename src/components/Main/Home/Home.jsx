@@ -26,6 +26,7 @@ import whatsapp from '../../../assets/whatsapp.svg';
 import telegram from '../../../assets/telegram.svg';
 import facebook2 from '../../../assets/facebook2.svg';
 import skype from '../../../assets/skype.svg';
+import logo25 from '../../../assets/logo25.svg';
 
 export default function Home() {
   return (
@@ -177,7 +178,7 @@ export default function Home() {
         <img src={gcp} alt="GCP" className='absolute ml-[628px] mt-[115px]' />
         <img src={viiv} alt="viiv" className='absolute ml-[940px] mt-[94px]' />
       </section>
-      <section className='w-[1368px] bg-orange3 rounded-[32px] h-[418px] mt-36 mx-6'>
+      <section className='w-[1368px] bg-orange3 rounded-[32px] h-[418px] mt-36 mx-6 my-16'>
         <p className='absolute mt-[38px] ml-[118px] font-["Poppins"] text-green font-bold text-4xl'>Consúltanos</p>
         <p className='absolute w-[817px] mt-[99.32px] ml-[118px] font-["Roboto"] text-green font-normal text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse hendrerit turpis dui, eget ultricies. Morbi id tempus nisi, a varius enim egetaugue neque.</p>
         <a href="/">
@@ -192,6 +193,11 @@ export default function Home() {
         <a href="/">
           <img src={skype} alt="Skype" className='absolute ml-[982px] mt-[201px]' />
         </a>
+      </section>
+      <section className='w-[1128px] h-[365px] my-16 ml-[156px] bg-yellow3 rounded-[32px]'>
+        <p className='absolute text-orange font-["Poppins"] font-bold text-[56px] w-[364px] mt-[43px] ml-[72px]'>¡Celebrando los 25 años de GtT!</p>
+        <img src={logo25} alt="25 aniversario GTT" className='absolute mt-[249px] ml-[74px]' />
+        <p className='absolute text-green font-["Poppins"] font-medium text-2xl w-[473px] ml-[553px] mt-[56px]'>Acompáñanos en nuestro evento <span className='font-bold'>“Vida Positiva”</span> y forma parte de nuestra historia. Conoce sobre los últimos avances del VIH y conecta con los grandes profesionales del sector.</p>
       </section>
       <section className='w-[1128px] h-[370px] ml-[127px]'>
         <img src={gente} alt="Gente" className='absolute' />
