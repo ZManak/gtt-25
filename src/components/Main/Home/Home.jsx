@@ -59,7 +59,7 @@ export default function Home() {
         </a>
       </section>
       <section className='w-[928px] h-[504px] my-10 ml-[156px]'>
-        <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>La comunidad habla</p>
+        <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>Aprende y cuida tu salud</p>
         <a href="/" className=''>
           <img src={verMas} alt="Ver más" className='absolute ml-[1028px]' />
         </a>
