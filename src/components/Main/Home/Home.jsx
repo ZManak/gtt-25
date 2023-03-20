@@ -6,6 +6,10 @@ import verMas from '../../../assets/verMas.svg';
 import covid from '../../../assets/covid.svg';
 import frio from '../../../assets/frio.svg';
 import viruela from '../../../assets/viruela.svg';
+import biktarvy from '../../../assets/biktarvy.svg';
+import multimorbilidad from '../../../assets/multimorbilidad.svg';
+import peso from '../../../assets/peso.svg';
+import semestral from '../../../assets/semestral.svg';
 
 export default function Home() {
   return (
@@ -20,7 +24,7 @@ export default function Home() {
         <p className='absolute text-[22px] text-green font-bold w-[270px] ml-[120px] mt-[340px]'>Pregunta lo que quieras:</p>
         <p className='absolute text-[57px] text-orange font-bold ml-[120px] mt-16 leading-[64px]'>Chat gTt</p>
       </section>
-      <section className='w-[1128px] h-[489px] my-10 ml-[156px]'>
+      <section className='w-[1128px] h-[489px] my-16 ml-[156px]'>
         <p className='absolute text-4xl text-green font-bold font-["Poppins"] w-[506px] leading-[44px]'>Logros alcanzados en 2021</p>
         <div className='absolute w-[995px] h-[94px] ml-[67px] text-green text-center font-["Poppins"] font-bold'>
           <div className='absolute mt-[117px]'>
@@ -49,7 +53,7 @@ export default function Home() {
           <span className="text-white w-13 h-5 mt-2.5">DONAR</span>
         </a>
       </section>
-      <section className='w-[1128px] h-[434px] my-10 ml-[156px]'>
+      <section className='w-[1128px] h-[434px] my-16 ml-[156px]'>
         <p className='absolute h-[45px] font-["Poppins"] font-bold text-[35.89px] text-green'>Este mes destacamos</p>
         <img src={destacamos} alt="Derechos, envejecimiento y VIH" className='absolute mt-[69px]' />
         <p className='absolute w-[454px] h-[38px] mt-[69px] ml-[672px] font-["Poppins"] font-medium text-[26px] leading-[38px]'>Derechos, envejecimiento y VIH</p>
@@ -58,8 +62,8 @@ export default function Home() {
           <img src={verMas} alt="Ver más" className='absolute mt-[261px] ml-[672px]' />
         </a>
       </section>
-      <section className='w-[928px] h-[504px] my-10 ml-[156px]'>
-        <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>La comunidad habla</p>
+      <section className='w-[1128px] h-[504px] my-16 ml-[156px]'>
+        <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>Aprende y cuida tu salud</p>
         <a href="/" className=''>
           <img src={verMas} alt="Ver más" className='absolute ml-[1028px]' />
         </a>
@@ -72,6 +76,29 @@ export default function Home() {
         <p className='absolute w-[360px] h-[158px] mt-[326px] ml-[384px] text-[26px] font-["Poppins"] font-medium'>Conservar la salud en los meses fríos </p>
         <p className='absolute w-[360px] h-[158px] mt-[326px] ml-[768px] text-[26px] font-["Poppins"] font-medium'>Viruela del mono: infórmate y reduce riesgos
         </p>
+      </section>
+      <section className='w-[1128px] h-[605px] my-16 ml-[156px]'>
+        <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>Últimas noticias</p>
+        <img src={biktarvy} alt="Biktarvy" className='absolute mt-[49px]' />
+        <p className='absolute w-[550px] h-[120px] mt-[438px] text-[26px] font-["Poppins"] font-medium'>Biktarvy® se muestra efectivo y seguro en personas con el VIH mayores de 65 años tras 2 años de seguimiento</p>
+        <p className='absolute w-[147.67px] h-[23px] mt-[542px] text-[16px] font-["Poppins"] font-normal text-[#A8A8A8]'>15-03-2023</p>
+        <div className='absolute mt-[49px] ml-[576px] w-[552px] h-[536px] '>
+          <div>
+            <img src={multimorbilidad} alt="Manos ofreciendo medicamentos" className='absolute' />
+            <p className='absolute w-[360px] h-[108px] text-[18px] ml-[192px] font-["Poppins"] font-semibold leading-[27px]'>CROI 2023: Elevada prevalencia de trastornos mentales y multimorbilidad por trastorno mental en personas con el VIHº</p>
+            <p className='absolute w-[147.67px] h-[23px] mt-[118px] ml-[192px] text-[16px] font-["Poppins"] font-normal text-[#A8A8A8]'>13-03-2023</p>
+          </div>
+          <div>
+            <img src={peso} alt="Mujer dando una conferencia en el CROI 2023" className='absolute mt-[180px]' />
+            <p className='absolute w-[360px] h-[108px] text-[18px] mt-[180px] ml-[192px] font-["Poppins"] font-semibold leading-[27px]'>CROI 2023: Mayor riesgo de aumento de peso si se inicia el tratamiento antirretroviral durante la fase avanzada de la infección</p>
+            <p className='absolute w-[147.67px] h-[23px] mt-[298px] ml-[192px] text-[16px] font-["Poppins"] font-normal text-[#A8A8A8]'>13-03-2023</p>
+          </div>
+          <div>
+            <img src={semestral} alt="Hombre dando una conferencia en el CROI 2023" className='absolute mt-[360px]' />
+            <p className='absolute w-[360px] h-[81px] text-[18px] mt-[360px] ml-[192px] font-["Poppins"] font-semibold leading-[27px]'>CROI 2023: Buenos resultados de un tratamiento antirretroviral completo de administración semestral</p>
+            <p className='absolute w-[147.67px] h-[23px] mt-[451px] ml-[192px] text-[16px] font-["Poppins"] font-normal text-[#A8A8A8]'>10-03-2023</p>
+          </div>
+        </div>
       </section>
     </main>
   )
