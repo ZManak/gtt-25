@@ -12,6 +12,11 @@ import peso from '../../../assets/peso.svg';
 import semestral from '../../../assets/semestral.svg';
 import croi2023 from '../../../assets/croi2023.svg';
 import play_arrow from '../../../assets/play_arrow.svg';
+import play_circle from '../../../assets/play_circle.svg';
+import opinion from '../../../assets/opinion.svg';
+import sabes from '../../../assets/sabes.svg';
+import miedo from '../../../assets/miedo.svg';
+import historia from '../../../assets/historia.svg';
 
 export default function Home() {
   return (
@@ -80,11 +85,11 @@ export default function Home() {
         </p>
       </section>
       <section className='w-[1128px] h-[605px] my-16 ml-[156px]'>
-        <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>Últimas noticias</p>
+        <p className='font-["Poppins"] text-green font-bold text-4xl'>Últimas noticias</p>
         <img src={biktarvy} alt="Biktarvy" className='absolute mt-[49px]' />
         <p className='absolute w-[550px] h-[120px] mt-[438px] text-[26px] font-["Poppins"] font-medium'>Biktarvy® se muestra efectivo y seguro en personas con el VIH mayores de 65 años tras 2 años de seguimiento</p>
         <p className='absolute w-[147.67px] h-[23px] mt-[542px] text-[16px] font-["Poppins"] font-normal text-[#A8A8A8]'>15-03-2023</p>
-        <div className='absolute mt-[49px] ml-[576px] w-[552px] h-[536px] '>
+        <div className='absolute mt-[49px] ml-[576px] w-[552px] h-[536px]'>
           <div>
             <img src={multimorbilidad} alt="Manos ofreciendo medicamentos" className='absolute' />
             <p className='absolute w-[360px] h-[108px] text-[18px] ml-[192px] font-["Poppins"] font-semibold leading-[27px]'>CROI 2023: Elevada prevalencia de trastornos mentales y multimorbilidad por trastorno mental en personas con el VIHº</p>
@@ -125,6 +130,36 @@ export default function Home() {
         <p className='absolute w-[392px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[736px] mt-[14px]'>El uso de lenacapavir más anticuerpos ampliamente neutralizantes podría constituir una opción de tratamiento semestral</p>
         <p className='absolute w-[390px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[318px] mt-[119px]'>Las infecciones por el VIH que se produzcan a pesar de la PrEP inyectable pueden permanecer sin diagnosticar mucho tiempo</p>
         <p className='absolute w-[390px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[736px] mt-[133px]'>Enorme aumento en el uso de la PrEP cuando los servicios ofrecen opciones y flexibilidad</p>
+      </section>
+      <section className='w-[1128px] h-[605px] my-16 ml-[156px]'>
+        <p className='font-["Poppins"] text-green font-bold text-4xl'>Canal VIH</p>
+        <a href="/" className=''>
+          <img src={verMas} alt="Ver más" className='absolute ml-[1028px]' />
+        </a>
+        <img src={opinion} alt="¿Qué opinión te merecen en general las vacunas?" className='absolute mt-[49px]' />
+        <a href="/" className='absolute ml-[14px] mt-[344px]'>
+          <img src={play_circle} alt="Ver vídeo" />
+        </a>
+        <p className='absolute w-[550px] mt-[438px] text-[26px] font-["Poppins"] font-medium leading-[39px]'>El VIH y la importancia de la prevención mediante la vacunación</p>
+        <div className='absolute mt-[49px] ml-[576px] w-[552px] h-[536px]'>
+          <div className='font-["Poppins"] text-[26px] font-medium leading-[39px] '>
+            <img src={sabes} alt="Campaña SABES" className='absolute' />
+            <img src={miedo} alt="Campaña SABES" className='absolute mt-[185px]' />
+            <img src={historia} alt="Campaña SABES" className='absolute mt-[371px]' />
+            <a href="/" className='absolute ml-[12px] mt-[97px]'>
+              <img src={play_circle} alt="Ver vídeo" />
+            </a>
+            <a href="/" className='absolute ml-[12px] mt-[283px]'>
+              <img src={play_circle} alt="Ver vídeo" />
+            </a>
+            <a href="/" className='absolute ml-[12px] mt-[468px]'>
+              <img src={play_circle} alt="Ver vídeo" />
+            </a>
+            <p className='absolute w-[360px] ml-[192px] mt-[-4px]'>Campaña "SABES" con Javier Cámara #LoPositivoEsSaberlo</p>
+            <p className='absolute w-[360px] ml-[192px] mt-[181px]'>Sin miedo al VIH 2018 (Documental)</p>
+            <p className='absolute w-[360px] ml-[192px] mt-[371px]'>Cambia la historia (vídeo completo)</p>
+          </div>
+        </div>
       </section>
     </main>
   )
