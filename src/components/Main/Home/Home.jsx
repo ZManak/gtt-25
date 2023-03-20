@@ -21,6 +21,7 @@ import abbVie from '../../../assets/abbVie.svg';
 import msd from '../../../assets/msd.svg';
 import gcp from '../../../assets/gcp.svg';
 import viiv from '../../../assets/viiv.svg';
+import gente from '../../../assets/gente.svg';
 
 export default function Home() {
   return (
@@ -165,12 +166,15 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='w-[1128px] h-[605px] my-16 ml-[156px]'>
+      <section className='w-[1128px] h-[300px] my-16 ml-[156px]'>
         <p className='font-["Poppins"] text-green font-bold text-4xl'>Nuestros patrocinadores</p>
         <img src={abbVie} alt="AbbVie" className='absolute ml-8 mt-32' />
         <img src={msd} alt="msd" className='absolute ml-[350px] mt-[120px]' />
         <img src={gcp} alt="GCP" className='absolute ml-[628px] mt-[115px]' />
         <img src={viiv} alt="viiv" className='absolute ml-[940px] mt-[94px]' />
+      </section>
+      <section className='w-[1128px] h-[370px] ml-[127px]'>
+        <img src={gente} alt="Gente" className='absolute' />
       </section>
     </main>
   )
