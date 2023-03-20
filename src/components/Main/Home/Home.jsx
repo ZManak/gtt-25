@@ -17,6 +17,10 @@ import opinion from '../../../assets/opinion.svg';
 import sabes from '../../../assets/sabes.svg';
 import miedo from '../../../assets/miedo.svg';
 import historia from '../../../assets/historia.svg';
+import abbVie from '../../../assets/abbVie.svg';
+import msd from '../../../assets/msd.svg';
+import gcp from '../../../assets/gcp.svg';
+import viiv from '../../../assets/viiv.svg';
 
 export default function Home() {
   return (
@@ -160,6 +164,13 @@ export default function Home() {
             <p className='absolute w-[360px] ml-[192px] mt-[371px]'>Cambia la historia (vídeo completo)</p>
           </div>
         </div>
+      </section>
+      <section className='w-[1128px] h-[605px] my-16 ml-[156px]'>
+        <p className='font-["Poppins"] text-green font-bold text-4xl'>Nuestros patrocinadores</p>
+        <img src={abbVie} alt="AbbVie" className='absolute ml-8 mt-32' />
+        <img src={msd} alt="msd" className='absolute ml-[350px] mt-[120px]' />
+        <img src={gcp} alt="GCP" className='absolute ml-[628px] mt-[115px]' />
+        <img src={viiv} alt="viiv" className='absolute ml-[940px] mt-[94px]' />
       </section>
     </main>
   )
