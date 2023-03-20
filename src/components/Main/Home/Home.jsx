@@ -3,6 +3,9 @@ import send from '../../../assets/send.svg';
 import favorite from '../../../assets/favorite.svg';
 import destacamos from '../../../assets/destacamos.svg';
 import verMas from '../../../assets/verMas.svg';
+import covid from '../../../assets/covid.svg';
+import frio from '../../../assets/frio.svg';
+import viruela from '../../../assets/viruela.svg';
 
 export default function Home() {
   return (
@@ -17,7 +20,7 @@ export default function Home() {
         <p className='absolute text-[22px] text-green font-bold w-[270px] ml-[120px] mt-[340px]'>Pregunta lo que quieras:</p>
         <p className='absolute text-[57px] text-orange font-bold ml-[120px] mt-16 leading-[64px]'>Chat gTt</p>
       </section>
-      <section className='w-[1128px] h-[489px] my-6 ml-[156px]'>
+      <section className='w-[1128px] h-[489px] my-10 ml-[156px]'>
         <p className='absolute text-4xl text-green font-bold font-["Poppins"] w-[506px] leading-[44px]'>Logros alcanzados en 2021</p>
         <div className='absolute w-[995px] h-[94px] ml-[67px] text-green text-center font-["Poppins"] font-bold'>
           <div className='absolute mt-[117px]'>
@@ -46,7 +49,7 @@ export default function Home() {
           <span className="text-white w-13 h-5 mt-2.5">DONAR</span>
         </a>
       </section>
-      <section className='w-[1128px] h-[434px] my-6 ml-[156px]'>
+      <section className='w-[1128px] h-[434px] my-10 ml-[156px]'>
         <p className='absolute h-[45px] font-["Poppins"] font-bold text-[35.89px] text-green'>Este mes destacamos</p>
         <img src={destacamos} alt="Derechos, envejecimiento y VIH" className='absolute mt-[69px]' />
         <p className='absolute w-[454px] h-[38px] mt-[69px] ml-[672px] font-["Poppins"] font-medium text-[26px] leading-[38px]'>Derechos, envejecimiento y VIH</p>
@@ -54,6 +57,21 @@ export default function Home() {
         <a href="/">
           <img src={verMas} alt="Ver más" className='absolute mt-[261px] ml-[672px]' />
         </a>
+      </section>
+      <section className='w-[928px] h-[504px] my-10 ml-[156px]'>
+        <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>La comunidad habla</p>
+        <a href="/" className=''>
+          <img src={verMas} alt="Ver más" className='absolute ml-[1028px]' />
+        </a>
+        <div className='w-screen absolute mt-[37px] h-[257px]'>
+          <img src={covid} alt="Chico con mascarilla" className='absolute' />
+          <img src={frio} alt="Pareja con abrigo arropados en la cama" className='absolute ml-[384px]' />
+          <img src={viruela} alt="Viruela del mono" className='absolute ml-[768px]' />
+        </div>
+        <p className='absolute w-[360px] h-[158px] mt-[326px] text-[26px] font-["Poppins"] font-medium'>COVID y VIH: Información relevante sobre el SARS-CoV-2 para personas con el VIH.</p>
+        <p className='absolute w-[360px] h-[158px] mt-[326px] ml-[384px] text-[26px] font-["Poppins"] font-medium'>Conservar la salud en los meses fríos </p>
+        <p className='absolute w-[360px] h-[158px] mt-[326px] ml-[768px] text-[26px] font-["Poppins"] font-medium'>Viruela del mono: infórmate y reduce riesgos
+        </p>
       </section>
     </main>
   )
