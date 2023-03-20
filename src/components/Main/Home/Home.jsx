@@ -22,6 +22,10 @@ import msd from '../../../assets/msd.svg';
 import gcp from '../../../assets/gcp.svg';
 import viiv from '../../../assets/viiv.svg';
 import gente from '../../../assets/gente.svg';
+import whatsapp from '../../../assets/whatsapp.svg';
+import telegram from '../../../assets/telegram.svg';
+import facebook2 from '../../../assets/facebook2.svg';
+import skype from '../../../assets/skype.svg';
 
 export default function Home() {
   return (
@@ -172,6 +176,22 @@ export default function Home() {
         <img src={msd} alt="msd" className='absolute ml-[350px] mt-[120px]' />
         <img src={gcp} alt="GCP" className='absolute ml-[628px] mt-[115px]' />
         <img src={viiv} alt="viiv" className='absolute ml-[940px] mt-[94px]' />
+      </section>
+      <section className='w-[1368px] bg-orange3 rounded-[32px] h-[418px] mt-36 mx-6'>
+        <p className='absolute mt-[38px] ml-[118px] font-["Poppins"] text-green font-bold text-4xl'>Consúltanos</p>
+        <p className='absolute w-[817px] mt-[99.32px] ml-[118px] font-["Roboto"] text-green font-normal text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse hendrerit turpis dui, eget ultricies. Morbi id tempus nisi, a varius enim egetaugue neque.</p>
+        <a href="/">
+          <img src={whatsapp} alt="WhatsApp" className='absolute ml-[118px] mt-[201px]' />
+        </a>
+        <a href="/">
+          <img src={telegram} alt="Telegram" className='absolute ml-[406px] mt-[201px]' />
+        </a>
+        <a href="/">
+          <img src={facebook2} alt="Facebook" className='absolute ml-[694px] mt-[201px]' />
+        </a>
+        <a href="/">
+          <img src={skype} alt="Skype" className='absolute ml-[982px] mt-[201px]' />
+        </a>
       </section>
       <section className='w-[1128px] h-[370px] ml-[127px]'>
         <img src={gente} alt="Gente" className='absolute' />
