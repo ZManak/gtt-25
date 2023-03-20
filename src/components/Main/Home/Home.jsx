@@ -10,6 +10,8 @@ import biktarvy from '../../../assets/biktarvy.svg';
 import multimorbilidad from '../../../assets/multimorbilidad.svg';
 import peso from '../../../assets/peso.svg';
 import semestral from '../../../assets/semestral.svg';
+import croi2023 from '../../../assets/croi2023.svg';
+import play_arrow from '../../../assets/play_arrow.svg';
 
 export default function Home() {
   return (
@@ -99,6 +101,30 @@ export default function Home() {
             <p className='absolute w-[147.67px] h-[23px] mt-[451px] ml-[192px] text-[16px] font-["Poppins"] font-normal text-[#A8A8A8]'>10-03-2023</p>
           </div>
         </div>
+      </section>
+      <section className='w-[1128px] h-[680px] my-16 ml-[156px]'>
+        <p className='font-["Poppins"] text-green font-bold text-4xl'>Actualización en tratamientos</p>
+        <img src={croi2023} alt="CROI 2023" className='mt-[49px]' />
+        <div>
+          <p className='absolute w-[264px] text-[26px] font-["Poppins"] font-medium leading-[39px]'>Cuarto Boletín Especial CROI 2023: Miércoles</p>
+          <p className='absolute mt-[141px] text-[16px] font-["Poppins"] font-normal text-[#A8A8A8]'>01-03-2023</p>
+        </div>
+        <a href="/" className='absolute ml-[290px]'>
+          <img src={play_arrow} alt="Flecha" />
+        </a>
+        <a href="/" className='absolute ml-[710px] mt-[14px]'>
+          <img src={play_arrow} alt="Flecha" />
+        </a>
+        <a href="/" className='absolute ml-[290px] mt-[119px]'>
+          <img src={play_arrow} alt="Flecha" />
+        </a>
+        <a href="/" className='absolute ml-[710px] mt-[133px]'>
+          <img src={play_arrow} alt="Flecha" />
+        </a>
+        <p className='absolute w-[390px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[318px]'>Un prometedor nuevo método de PrEP supera el primer estudio de seguridad para el sexo anal</p>
+        <p className='absolute w-[392px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[736px] mt-[14px]'>El uso de lenacapavir más anticuerpos ampliamente neutralizantes podría constituir una opción de tratamiento semestral</p>
+        <p className='absolute w-[390px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[318px] mt-[119px]'>Las infecciones por el VIH que se produzcan a pesar de la PrEP inyectable pueden permanecer sin diagnosticar mucho tiempo</p>
+        <p className='absolute w-[390px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[736px] mt-[133px]'>Enorme aumento en el uso de la PrEP cuando los servicios ofrecen opciones y flexibilidad</p>
       </section>
     </main>
   )
