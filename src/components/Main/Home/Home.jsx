@@ -27,6 +27,7 @@ import telegram from '../../../assets/telegram.svg';
 import facebook2 from '../../../assets/facebook2.svg';
 import skype from '../../../assets/skype.svg';
 import logo25 from '../../../assets/logo25.svg';
+import registrate from '../../../assets/registrate.svg';
 
 export default function Home() {
   return (
@@ -63,6 +64,14 @@ export default function Home() {
             <p className='absolute w-[147.67px] h-[23px] mt-[451px] ml-[192px] text-[16px] font-["Poppins"] font-normal text-[#A8A8A8]'>10-03-2023</p>
           </div>
         </div>
+      </section>
+      <section className='w-[1128px] h-[365px] my-20 ml-[156px] bg-[#FCDCA4] rounded-[32px]'>
+        <p className='absolute text-orange font-["Poppins"] font-bold text-[56px] w-[364px] mt-[43px] ml-[72px]'>¡Celebrando los 25 años de GtT!</p>
+        <img src={logo25} alt="25 aniversario GTT" className='absolute mt-[249px] ml-[74px]' />
+        <p className='absolute text-green font-["Poppins"] font-medium text-2xl w-[473px] ml-[553px] mt-[56px]'>Acompáñanos en nuestro evento <span className='font-bold'>“Vida Positiva”</span> y forma parte de nuestra historia. Conoce sobre los últimos avances del VIH y conecta con los grandes profesionales del sector.</p>
+        <a href="/">
+          <img src={registrate} alt="Regístrate" className='absolute ml-[549px] mt-[248px]' />
+        </a>
       </section>
       <section className='w-[1128px] h-[680px] my-20 ml-[156px]'>
         <p className='font-["Poppins"] text-green font-bold text-4xl'>Actualización en tratamientos</p>
@@ -157,11 +166,6 @@ export default function Home() {
         <a href="/">
           <img src={verMas} alt="Ver más" className='absolute mt-[261px] ml-[672px]' />
         </a>
-      </section>
-      <section className='w-[1128px] h-[365px] my-20 ml-[156px] bg-yellow3 rounded-[32px]'>
-        <p className='absolute text-orange font-["Poppins"] font-bold text-[56px] w-[364px] mt-[43px] ml-[72px]'>¡Celebrando los 25 años de GtT!</p>
-        <img src={logo25} alt="25 aniversario GTT" className='absolute mt-[249px] ml-[74px]' />
-        <p className='absolute text-green font-["Poppins"] font-medium text-2xl w-[473px] ml-[553px] mt-[56px]'>Acompáñanos en nuestro evento <span className='font-bold'>“Vida Positiva”</span> y forma parte de nuestra historia. Conoce sobre los últimos avances del VIH y conecta con los grandes profesionales del sector.</p>
       </section>
       <section className='w-[1128px] h-[489px] my-20 ml-[156px]'>
         <p className='absolute text-4xl text-green font-bold font-["Poppins"] w-[506px] leading-[44px]'>Logros alcanzados en 2021</p>
