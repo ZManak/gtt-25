@@ -42,6 +42,14 @@ export default function Home() {
         <p className='absolute text-[21.36px] text-green font-bold w-[270px] ml-[80px] mt-[355px]'>Pregunta lo que quieras:</p>
         <p className='absolute text-[62.69px] font-["Poppins"] text-orange font-bold ml-[80px] mt-[72px] leading-[64px]'>Chat gTt</p>
       </section>
+      <section className='w-[1128px] h-[365px] my-20 ml-[156px] bg-[#FCDCA4] rounded-[32px]'>
+        <p className='absolute text-orange font-["Poppins"] font-bold text-[56px] w-[364px] mt-[43px] ml-[72px]'>¡Celebrando los 25 años de GtT!</p>
+        <img src={logo25} alt="25 aniversario GTT" className='absolute mt-[249px] ml-[74px]' />
+        <p className='absolute text-green font-["Poppins"] font-medium text-2xl w-[473px] ml-[553px] mt-[56px]'>Acompáñanos en nuestro evento <span className='font-bold'>“Vida Positiva”</span> y forma parte de nuestra historia. Conoce sobre los últimos avances del VIH y conecta con los grandes profesionales del sector.</p>
+        <a href="/">
+          <img src={registrate} alt="Regístrate" className='absolute ml-[549px] mt-[248px]' />
+        </a>
+      </section>
       <section className='w-[1128px] h-[605px] my-20 ml-[156px]'>
         <p className='font-["Poppins"] text-green font-bold text-4xl'>Últimas noticias</p>
         <img src={biktarvy} alt="Biktarvy" className='absolute mt-[49px]' />
@@ -65,12 +73,20 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='w-[1128px] h-[365px] my-20 ml-[156px] bg-[#FCDCA4] rounded-[32px]'>
-        <p className='absolute text-orange font-["Poppins"] font-bold text-[56px] w-[364px] mt-[43px] ml-[72px]'>¡Celebrando los 25 años de GtT!</p>
-        <img src={logo25} alt="25 aniversario GTT" className='absolute mt-[249px] ml-[74px]' />
-        <p className='absolute text-green font-["Poppins"] font-medium text-2xl w-[473px] ml-[553px] mt-[56px]'>Acompáñanos en nuestro evento <span className='font-bold'>“Vida Positiva”</span> y forma parte de nuestra historia. Conoce sobre los últimos avances del VIH y conecta con los grandes profesionales del sector.</p>
+      <section className='w-[1441px] bg-yellow3 rounded-[32px] h-[532px] ml-[-109px] my-20'>
+        <p className='absolute mt-[104px] ml-[229px] font-["Poppins"] text-green font-bold text-4xl'>Consúltanos</p>
+        <p className='absolute w-[840px] mt-[164px] ml-[229px] font-["Poppins"] text-green font-medium text-[22px] leading-[28px]'>Déjanos tu consulta a través de nuestro servicio de atención e información para complementar la información proporcionada por tu médico.</p>
         <a href="/">
-          <img src={registrate} alt="Regístrate" className='absolute ml-[549px] mt-[248px]' />
+          <img src={whatsapp} alt="WhatsApp" className='absolute ml-[229px] mt-[281px]' />
+        </a>
+        <a href="/">
+          <img src={telegram} alt="Telegram" className='absolute ml-[517px] mt-[281px]' />
+        </a>
+        <a href="/">
+          <img src={facebook2} alt="Facebook" className='absolute ml-[805px] mt-[281px]' />
+        </a>
+        <a href="/">
+          <img src={skype} alt="Skype" className='absolute ml-[1093px] mt-[281px]' />
         </a>
       </section>
       <section className='w-[1128px] h-[680px] my-20 ml-[156px]'>
@@ -96,22 +112,6 @@ export default function Home() {
         <p className='absolute w-[392px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[736px] mt-[14px]'>El uso de lenacapavir más anticuerpos ampliamente neutralizantes podría constituir una opción de tratamiento semestral</p>
         <p className='absolute w-[390px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[318px] mt-[119px]'>Las infecciones por el VIH que se produzcan a pesar de la PrEP inyectable pueden permanecer sin diagnosticar mucho tiempo</p>
         <p className='absolute w-[390px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[736px] mt-[133px]'>Enorme aumento en el uso de la PrEP cuando los servicios ofrecen opciones y flexibilidad</p>
-      </section>
-      <section className='w-[1368px] bg-orange3 rounded-[32px] h-[418px] mt-36 mx-6 my-20'>
-        <p className='absolute mt-[38px] ml-[118px] font-["Poppins"] text-green font-bold text-4xl'>Consúltanos</p>
-        <p className='absolute w-[817px] mt-[99.32px] ml-[118px] font-["Roboto"] text-green font-normal text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse hendrerit turpis dui, eget ultricies. Morbi id tempus nisi, a varius enim egetaugue neque.</p>
-        <a href="/">
-          <img src={whatsapp} alt="WhatsApp" className='absolute ml-[118px] mt-[201px]' />
-        </a>
-        <a href="/">
-          <img src={telegram} alt="Telegram" className='absolute ml-[406px] mt-[201px]' />
-        </a>
-        <a href="/">
-          <img src={facebook2} alt="Facebook" className='absolute ml-[694px] mt-[201px]' />
-        </a>
-        <a href="/">
-          <img src={skype} alt="Skype" className='absolute ml-[982px] mt-[201px]' />
-        </a>
       </section>
       <section className='w-[1128px] h-[504px] my-20 ml-[156px]'>
         <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>Aprende y cuida tu salud</p>
