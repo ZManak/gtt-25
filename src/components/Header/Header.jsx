@@ -7,14 +7,14 @@ const Header = () => {
     <header className="w-screen h-36 absolute flex items-center h-16">
       <a
         href="/"
-        className="absolute w-34 h-16 ml-10"
+        className="absolute w-34 h-16 ml-40"
       >
         <img
           src={logo}
           alt="Logo 25 aniversario GTT"
         />
       </a>
-      <nav className="absolute flex flex-row items-start gap-5 w-934 ml-[369px] mt-3 font-['Poppins'] font-medium text-sm leading-5">
+      <nav className="absolute flex flex-row items-start gap-5 w-934 ml-[348px] mt-3 font-['Poppins'] font-medium text-sm leading-5">
         <a
           href="/sobre-el-vih"
           className="hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md mx-3"
@@ -53,14 +53,14 @@ const Header = () => {
 
         >
           <img
-            className="py-2 ml-4"
+            className="py-2"
             src={search}
             alt="Lupa de búsqueda"
           />
         </a>
         <a
           href="/"
-          className="w-[168px] h-10 bg-yellow flex flex-row justify-center items-center pt-2 pb-5 pl-2 pr-6 gap-2.5 rounded-lg ml-8"
+          className="w-32 h-12 bg-yellow flex flex-row justify-center items-center pt-2 pb-5 pl-2 pr-6 gap-2.5 rounded-lg mx-3"
         >
           <img
             className="w-5 h-5 mt-2.5 ml-3"
