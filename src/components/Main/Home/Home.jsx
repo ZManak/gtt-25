@@ -28,11 +28,14 @@ import facebook2 from '../../../assets/facebook2.svg';
 import skype from '../../../assets/skype.svg';
 import logo25 from '../../../assets/logo25.svg';
 import registrate from '../../../assets/registrate.svg';
+import avelain from '../../../assets/avelain.svg';
+import arteaga from '../../../assets/arteaga.svg';
+import fuster from '../../../assets/fuster.svg';
 
 export default function Home() {
   return (
     <main>
-      <section className="w-[1368px] bg-orange3 rounded-[32px] h-[640px] mt-36 mx-6 mb-20">
+      <section className="w-[1368px] bg-orange3 rounded-[32px] h-[640px] mt-36 ml-20 mb-20">
         <img src={group1} alt="Gente" className="mt-[5.84px] ml-[480px] absolute" />
         <form action="/">
           <input type="text" className="w-[373px] h-[137px] ml-[80px] mt-[430px] shadow-md rounded absolute" />
@@ -42,7 +45,7 @@ export default function Home() {
         <p className='absolute text-[21.36px] text-green font-bold w-[270px] ml-[80px] mt-[355px]'>Pregunta lo que quieras:</p>
         <p className='absolute text-[62.69px] font-["Poppins"] text-orange font-bold ml-[80px] mt-[72px] leading-[64px]'>Chat gTt</p>
       </section>
-      <section className='w-[1128px] h-[365px] my-20 ml-[156px] bg-[#FCDCA4] rounded-[32px]'>
+      <section className='w-[1128px] h-[365px] my-20 ml-[206px] bg-[#FCDCA4] rounded-[32px]'>
         <p className='absolute text-orange font-["Poppins"] font-bold text-[56px] w-[364px] mt-[43px] ml-[72px]'>¡Celebrando los 25 años de GtT!</p>
         <img src={logo25} alt="25 aniversario GTT" className='absolute mt-[249px] ml-[74px]' />
         <p className='absolute text-green font-["Poppins"] font-medium text-2xl w-[473px] ml-[553px] mt-[56px]'>Acompáñanos en nuestro evento <span className='font-bold'>“Vida Positiva”</span> y forma parte de nuestra historia. Conoce sobre los últimos avances del VIH y conecta con los grandes profesionales del sector.</p>
@@ -50,7 +53,7 @@ export default function Home() {
           <img src={registrate} alt="Regístrate" className='absolute ml-[549px] mt-[248px]' />
         </a>
       </section>
-      <section className='w-[1128px] h-[605px] my-20 ml-[156px]'>
+      <section className='w-[1128px] h-[605px] my-20 ml-[206px]'>
         <p className='font-["Poppins"] text-green font-bold text-4xl'>Últimas noticias</p>
         <img src={biktarvy} alt="Biktarvy" className='absolute mt-[49px]' />
         <p className='absolute w-[550px] h-[120px] mt-[438px] text-[26px] font-["Poppins"] font-medium'>Biktarvy® se muestra efectivo y seguro en personas con el VIH mayores de 65 años tras 2 años de seguimiento</p>
@@ -89,7 +92,7 @@ export default function Home() {
           <img src={skype} alt="Skype" className='absolute ml-[1093px] mt-[281px]' />
         </a>
       </section>
-      <section className='w-[1128px] h-[680px] my-20 ml-[156px]'>
+      <section className='w-[1128px] h-[680px] my-20 ml-[206px]'>
         <p className='font-["Poppins"] text-green font-bold text-4xl'>Actualización en tratamientos</p>
         <img src={croi2023} alt="CROI 2023" className='mt-[49px]' />
         <div>
@@ -113,7 +116,7 @@ export default function Home() {
         <p className='absolute w-[390px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[318px] mt-[119px]'>Las infecciones por el VIH que se produzcan a pesar de la PrEP inyectable pueden permanecer sin diagnosticar mucho tiempo</p>
         <p className='absolute w-[390px] font-["Poppins"] font-semibold text-lg leading-[27px] ml-[736px] mt-[133px]'>Enorme aumento en el uso de la PrEP cuando los servicios ofrecen opciones y flexibilidad</p>
       </section>
-      <section className='w-[1128px] h-[504px] my-20 ml-[156px]'>
+      <section className='w-[1128px] h-[504px] my-20 ml-[206px]'>
         <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>Aprende y cuida tu salud</p>
         <a href="/" className=''>
           <img src={verMas} alt="Ver más" className='absolute ml-[1028px]' />
@@ -128,37 +131,37 @@ export default function Home() {
         <p className='absolute w-[360px] h-[158px] mt-[326px] ml-[768px] text-[26px] font-["Poppins"] font-medium'>Viruela del mono: infórmate y reduce riesgos
         </p>
       </section>
-      <section className='w-[1128px] h-[605px] my-20 ml-[156px]'>
-        <p className='font-["Poppins"] text-green font-bold text-4xl'>Canal VIH</p>
+      <section className='w-[1441px] bg-yellow3 rounded-[32px] h-[813px] ml-[109px] my-20'>
+        <p className='absolute font-["Poppins"] text-green font-bold text-4xl mt-[96px] ml-[124px]'>Canal VIH</p>
         <a href="/" className=''>
-          <img src={verMas} alt="Ver más" className='absolute ml-[1028px]' />
+          <img src={verMas} alt="Ver más" className='absolute mt-[116px] ml-[1084px]' />
         </a>
-        <img src={opinion} alt="¿Qué opinión te merecen en general las vacunas?" className='absolute mt-[49px]' />
-        <a href="/" className='absolute ml-[14px] mt-[344px]'>
+        <img src={opinion} alt="¿Qué opinión te merecen en general las vacunas?" className='absolute mt-[165px] ml-[124px]' />
+        <a href="/" className='absolute ml-[138px] mt-[440px]'>
           <img src={play_circle} alt="Ver vídeo" />
         </a>
-        <p className='absolute w-[550px] mt-[438px] text-[26px] font-["Poppins"] font-medium leading-[39px]'>El VIH y la importancia de la prevención mediante la vacunación</p>
-        <div className='absolute mt-[49px] ml-[576px] w-[552px] h-[536px]'>
+        <p className='absolute w-[550px] mt-[554px] ml-[124px] text-[26px] font-["Poppins"] font-medium leading-[39px]'>El VIH y la importancia de la prevención mediante la vacunación</p>
+        <div className='absolute mt-[49px] ml-[706px] w-[552px] h-[536px]'>
           <div className='font-["Poppins"] text-[26px] font-medium leading-[39px] '>
-            <img src={sabes} alt="Campaña SABES" className='absolute' />
-            <img src={miedo} alt="Campaña SABES" className='absolute mt-[185px]' />
-            <img src={historia} alt="Campaña SABES" className='absolute mt-[371px]' />
-            <a href="/" className='absolute ml-[12px] mt-[97px]'>
+            <img src={sabes} alt="Campaña SABES" className='absolute mt-[115px]' />
+            <img src={miedo} alt="Campaña SABES" className='absolute mt-[300px]' />
+            <img src={historia} alt="Campaña SABES" className='absolute mt-[486px]' />
+            <a href="/" className='absolute ml-[12px] mt-[213px]'>
               <img src={play_circle} alt="Ver vídeo" />
             </a>
-            <a href="/" className='absolute ml-[12px] mt-[283px]'>
+            <a href="/" className='absolute ml-[12px] mt-[397px]'>
               <img src={play_circle} alt="Ver vídeo" />
             </a>
-            <a href="/" className='absolute ml-[12px] mt-[468px]'>
+            <a href="/" className='absolute ml-[12px] mt-[583px]'>
               <img src={play_circle} alt="Ver vídeo" />
             </a>
-            <p className='absolute w-[360px] ml-[192px] mt-[-4px]'>Campaña "SABES" con Javier Cámara #LoPositivoEsSaberlo</p>
-            <p className='absolute w-[360px] ml-[192px] mt-[181px]'>Sin miedo al VIH 2018 (Documental)</p>
-            <p className='absolute w-[360px] ml-[192px] mt-[371px]'>Cambia la historia (vídeo completo)</p>
+            <p className='absolute w-[360px] ml-[192px] mt-[115px]'>Campaña "SABES" con Javier Cámara #LoPositivoEsSaberlo</p>
+            <p className='absolute w-[360px] ml-[192px] mt-[296px]'>Sin miedo al VIH 2018 (Documental)</p>
+            <p className='absolute w-[360px] ml-[192px] mt-[486px]'>Cambia la historia (vídeo completo)</p>
           </div>
         </div>
       </section>
-      <section className='w-[1128px] h-[434px] my-20 ml-[156px]'>
+      <section className='w-[1128px] h-[434px] my-20 ml-[206px]'>
         <p className='absolute h-[45px] font-["Poppins"] font-bold text-[35.89px] text-green'>Este mes destacamos</p>
         <img src={destacamos} alt="Derechos, envejecimiento y VIH" className='absolute mt-[69px]' />
         <p className='absolute w-[454px] h-[38px] mt-[69px] ml-[672px] font-["Poppins"] font-medium text-[26px] leading-[38px]'>Derechos, envejecimiento y VIH</p>
@@ -166,6 +169,20 @@ export default function Home() {
         <a href="/">
           <img src={verMas} alt="Ver más" className='absolute mt-[261px] ml-[672px]' />
         </a>
+      </section>
+      <section className='w-[1128px] h-[504px] my-20 ml-[206px]'>
+        <p className='w-[506px] font-["Poppins"] text-green font-bold text-4xl'>La comunidad habla</p>
+        <a href="/" className=''>
+          <img src={verMas} alt="Ver más" className='absolute ml-[1028px]' />
+        </a>
+        <div className='w-screen absolute mt-[37px] h-[257px]'>
+          <img src={avelain} alt="Mr Avelain" className='absolute' />
+          <img src={arteaga} alt="David Arteaga" className='absolute ml-[384px]' />
+          <img src={fuster} alt="María José Fuster" className='absolute ml-[768px]' />
+        </div>
+        <p className='absolute w-[360px] h-[158px] mt-[326px] text-[22px] font-["Poppins"] font-medium'><span className='font-semibold'>Mr Avelain:</span> “La necesidad de buscar culpables es el mayor palo en la rueda”</p>
+        <p className='absolute w-[360px] h-[158px] mt-[326px] ml-[384px] text-[22px] font-["Poppins"] font-medium'><span className='font-semibold'>David Arteaga:</span> “Las campañas contra el VIH no transmiten información, y eso se traduce en un mar de prejuicios”</p>
+        <p className='absolute w-[360px] h-[158px] mt-[326px] ml-[768px] text-[22px] font-["Poppins"] font-medium'><span className='font-semibold'>María José Fuster:</span> “Hay que identificar los problemas que tienen los pacientes de VIH, y para eso hay que medir o preguntar”</p>
       </section>
       <section className='w-[1128px] h-[489px] my-20 ml-[156px]'>
         <p className='absolute text-4xl text-green font-bold font-["Poppins"] w-[506px] leading-[44px]'>Logros alcanzados en 2021</p>
