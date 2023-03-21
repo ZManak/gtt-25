@@ -67,7 +67,7 @@ const Header = () => {
             src={favorite}
             alt="Corazón"
           />
-          <span className="text-white w-13 h-5 mt-2.5">DONAR</span>
+          <span className="text-white w-13 h-5 mt-2.5 font-['Poppins'] font-bold">DONAR</span>
         </a>
       </nav>
     </header>

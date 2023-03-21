@@ -76,7 +76,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='w-[1441px] bg-yellow3 rounded-[32px] h-[532px] ml-[-109px] my-20'>
+      <section className='w-[1441px] bg-yellow3 rounded-[32px] h-[532px] ml-[-49px] my-20'>
         <p className='absolute mt-[104px] ml-[229px] font-["Poppins"] text-green font-bold text-4xl'>Consúltanos</p>
         <p className='absolute w-[840px] mt-[164px] ml-[229px] font-["Poppins"] text-green font-medium text-[22px] leading-[28px]'>Déjanos tu consulta a través de nuestro servicio de atención e información para complementar la información proporcionada por tu médico.</p>
         <a href="/">
@@ -184,36 +184,36 @@ export default function Home() {
         <p className='absolute w-[360px] h-[158px] mt-[326px] ml-[384px] text-[22px] font-["Poppins"] font-medium'><span className='font-semibold'>David Arteaga:</span> “Las campañas contra el VIH no transmiten información, y eso se traduce en un mar de prejuicios”</p>
         <p className='absolute w-[360px] h-[158px] mt-[326px] ml-[768px] text-[22px] font-["Poppins"] font-medium'><span className='font-semibold'>María José Fuster:</span> “Hay que identificar los problemas que tienen los pacientes de VIH, y para eso hay que medir o preguntar”</p>
       </section>
-      <section className='w-[1128px] h-[489px] my-20 ml-[156px]'>
-        <p className='absolute text-4xl text-green font-bold font-["Poppins"] w-[506px] leading-[44px]'>Logros alcanzados en 2021</p>
-        <div className='absolute w-[995px] h-[94px] ml-[67px] text-green text-center font-["Poppins"] font-bold'>
-          <div className='absolute mt-[117px]'>
-            <p className='text-[48px]'>2.114.216</p>
-            <p className='text-[22px]'>Visitas al sitio web</p>
+      <section className='w-[1441px] bg-yellow3 rounded-[32px] h-[653px] ml-[-49px] my-20'>
+        <p className='absolute ml-[248px] mt-[104px] text-4xl text-green font-bold font-["Poppins"] w-[506px] leading-[44px]'>Logros alcanzados en 2021</p>
+        <div className='absolute w-[995px] h-[94px] ml-[305px] text-center font-["Poppins"] font-bold'>
+          <div className='absolute mt-[214px]'>
+            <p className='text-[48px] text-orange'>2.114.216</p>
+            <p className='text-[22px] text-green'>Visitas al <br /> sitio web</p>
           </div>
-          <div className='absolute ml-[395px] w-[216px] mt-[107px]'>
-            <p className='text-[48px]'>73.678</p>
-            <p className='text-[22px]'>Visitas a la sección web de consultas</p>
+          <div className='absolute ml-[395px] w-[216px] mt-[214px]'>
+            <p className='text-[48px] text-orange'>73.678</p>
+            <p className='text-[22px] text-green'>Visitas a la sección web de consultas</p>
           </div>
-          <div className='absolute ml-[786px] w-[226px] mt-[107px]'>
-            <p className='text-[48px]'>322,409</p>
-            <p className='text-[22px]'>Fichas de InfoVIHtal descargadas</p>
+          <div className='absolute ml-[786px] w-[226px] mt-[214px]'>
+            <p className='text-[48px] text-orange'>322,409</p>
+            <p className='text-[22px] text-green'>Fichas de InfoVIHtal descargadas</p>
           </div>
         </div>
-        <p className='absolute ml-[161px] mt-[237px] w-[817px] h-[120px] font-["Roboto"] font-normal text-[18px] text-center tracking-[.5px] flex text-[#252525] leading-7'>Tu donación puede marcar la diferencia en la vida de aquellos que luchan contra el VIH. Ayuda a financiar programas de atención médica, asesoramiento y prevención del VIH en comunidades vulnerables. Juntos, podemos acabar con el estigma y construir un futuro más saludable y esperanzador para todos.</p>
+        <p className='absolute ml-[309px] mt-[361px] w-[987px] h-[120px] font-["Poppins"] font-medium text-[22px] text-center flex text-[#252525] leading-[28px]'>Tu donación puede marcar la diferencia en la vida de aquellos que luchan contra el VIH. Ayuda a financiar programas de atención médica, asesoramiento y prevención del VIH en comunidades vulnerables. Juntos, podemos acabar con el estigma y construir un futuro más saludable y esperanzador para todos.</p>
         <a
           href="/"
-          className="absolute w-[361px] h-[56px] mt-[389px] ml-[384px] bg-orange flex flex-row justify-center items-center pt-2 pb-5 pl-2 pr-6 gap-2.5 rounded-lg ml-8"
+          className="absolute w-[361px] h-[56px] mt-[508px] ml-[624px] bg-yellow flex flex-row justify-center items-center pt-2 pb-5 pl-2 pr-6 gap-2.5 rounded-lg ml-8"
         >
           <img
             className="w-5 h-5 mt-2.5 ml-3"
             src={favorite}
             alt="Corazón"
           />
-          <span className="text-white w-13 h-5 mt-2.5">DONAR</span>
+          <span className="text-white w-13 h-5 mt-2.5 font-['Poppins'] font-bold">DONAR</span>
         </a>
       </section>
-      <section className='w-[1128px] h-[300px] my-20 ml-[156px]'>
+      <section className='w-[1128px] h-[300px] my-20 ml-[206px]'>
         <p className='font-["Poppins"] text-green font-bold text-4xl'>Nuestros patrocinadores</p>
         <img src={abbVie} alt="AbbVie" className='absolute ml-8 mt-32' />
         <img src={msd} alt="msd" className='absolute ml-[350px] mt-[120px]' />
