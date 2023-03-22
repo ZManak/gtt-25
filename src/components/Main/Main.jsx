@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from './Home/Home';
 import About from './About/About';
+import VIH from './About/Category/VIH/VIH';
 
 
 export default function Main() {
@@ -8,6 +9,7 @@ export default function Main() {
         <Routes>
             <Route element={<Home />} path="/" />
             <Route element={<About />} path="/sobre-el-vih" />
+            <Route path="/como-funciona-el-vih" element={<VIH />} />
         </Routes>
     )
 }

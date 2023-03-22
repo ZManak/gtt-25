@@ -11,6 +11,7 @@ import sexualidad from '../../../assets/sexualidad.svg';
 import sociales from '../../../assets/sociales.svg';
 import glosario from '../../../assets/glosario.svg';
 import videos from '../../../assets/videos.svg';
+import { Link } from 'react-router-dom'
 
 
 export default function About() {
@@ -31,10 +32,13 @@ export default function About() {
                     <img src={tratamiento} alt="Recién diagnosticado con VIH" className='absolute mt-6 ml-6' />
                     <p className='abosolute mt-[79px] ml-6 w-[216px] font-["Poppins"] font-medium text-lg'>Tratamiento del VIH</p>
                 </div>
-                <div className='absolute mt-[336px] ml-[1020px] rounded-2xl w-[264px] h-[159px] bg-orange3 '>
-                    <img src={comoFunciona} alt="Recién diagnosticado con VIH" className='absolute mt-6 ml-6' />
-                    <p className='abosolute mt-[79px] ml-6 w-[216px] font-["Poppins"] font-medium text-lg'>Cómo funciona el VIH</p>
-                </div>
+                <Link to={"/como-funciona-el-vih"}>
+                    <div className='absolute mt-[336px] ml-[1020px] rounded-2xl w-[264px] h-[159px] bg-orange3 '>
+                        <img src={comoFunciona} alt="Recién diagnosticado con VIH" className='absolute mt-6 ml-6' />
+                        <p className='abosolute mt-[79px] ml-6 w-[216px] font-["Poppins"] font-medium text-lg'>Cómo funciona el VIH</p>
+                    </div>
+                </Link>
+
                 <div className='absolute mt-[519px] ml-[156px] rounded-2xl w-[264px] h-[159px] bg-orange3 '>
                     <img src={prevencion} alt="Recién diagnosticado con VIH" className='absolute mt-6 ml-6' />
                     <p className='abosolute mt-[79px] ml-6 w-[216px] font-["Poppins"] font-medium text-lg'>Transmisión
