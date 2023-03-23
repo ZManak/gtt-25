@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import group1 from '../../../assets/group1.svg';
 import send from '../../../assets/send.svg';
 import favorite from '../../../assets/favorite.svg';
@@ -33,13 +34,23 @@ import arteaga from '../../../assets/arteaga.svg';
 import fuster from '../../../assets/fuster.svg';
 
 export default function Home() {
+  const navigate = useNavigate();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    // Acceder a los datos del formulario utilizando la referencia del elemento del DOM
+    const msg = event.target.elements.msg.value;
+    navigate(`/chat/${msg}`);
+  };
+
   return (
     <main>
       <section className="w-[1368px] bg-orange3 rounded-[32px] h-[640px] mt-36 ml-20 mb-20">
         <img src={group1} alt="Gente" className="mt-[5.84px] ml-[480px] absolute" />
-        <form action="/">
-          <input type="text" className="w-[373px] h-[137px] ml-[80px] mt-[430px] shadow-md rounded absolute" />
-          <img src={send} alt="Enviar" className='absolute ml-[419px] mt-[520px]' />
+        <form onSubmit={handleSubmit}>
+          <input type="text" name="msg" className="w-[373px] h-[137px] ml-[80px] mt-[430px] shadow-md rounded absolute" />
+          <button type="submit" >
+            <img src={send} alt="Enviar" className="absolute ml-[420px] mt-[520px]" />
+          </button>
         </form>
         <p className='absolute text-[21.36px] text-green font-medium font-["Roboto"] w-[469px] ml-[80px] mt-[163px] leading-[30.36px]'>Sabemos que recibir un diagnóstico de VIH puede ser abrumador y puede haber muchas preguntas que surjan. Pero no estás solx. Estamos aquí para ayudarte y brindarte información veraz y útil.</p>
         <p className='absolute text-[21.36px] text-green font-bold w-[270px] ml-[80px] mt-[355px]'>Pregunta lo que quieras:</p>
