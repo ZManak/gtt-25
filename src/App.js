@@ -1,12 +1,10 @@
-import './index.css'
+import './index.css';
 import React from 'react';
 import Main from './components/Main';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import { BrowserRouter } from 'react-router-dom';
 
-import { doc, getFirestore } from 'firebase/firestore';
-import { FirestoreProvider, useFirestoreDocData, useFirestore, useFirebaseApp } from 'reactfire';
 /*
 function GetMail() {
   // easily access the Firestore library
@@ -25,19 +23,15 @@ function GetMail() {
 */
 
 function App() {
-  const firestoreInstance = getFirestore(useFirebaseApp());
   return (
-    <FirestoreProvider sdk={firestoreInstance}>
-      <div className='App'>
-        <BrowserRouter>
-          <Header />
-          <Main />
-          <Footer />
-        </BrowserRouter>
-      </div>
-    </FirestoreProvider>
+    <div className="App">
+      <BrowserRouter>
+        <Header />
+        <Main />
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
-
 
 export default App;
