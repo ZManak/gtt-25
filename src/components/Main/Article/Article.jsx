@@ -88,7 +88,7 @@ const Article = () => {
               </li>
             </ul>
           </div>
-          <div className="absolute rounded-2xl w-[300px] h-[159px] bg-orange3 ml-[1256px] mt-[100px]">
+          <div className="absolute rounded-2xl w-[300px] h-[159px] bg-orange3 ml-[1100px] mt-[100px]">
             <p className='abosolute ml-6 w-[216px] p-[10px] ml-[10px] font-["Poppins"] font-medium text-lg'>
               Sigue leyendo
             </p>
