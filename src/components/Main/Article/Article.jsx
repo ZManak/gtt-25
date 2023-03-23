@@ -4,12 +4,12 @@ import quees from '../../../assets/que-es.svg';
 const Article = () => {
   return (
     <section>
-      <div className="w-screen mt-36 ml-[200px] mb-[15px]">
+      <div className="w-[1368] mt-36 ml-[56px] mb-[15px]">
         <img src={quees} alt="quees" />
       </div>
       <section className="">
         <div className="flex">
-          <div className="ml-[200px] mr-[700px] pt-[36px] font-['Poppins'] text-lg">
+          <div className="ml-[200px] mr-[500px] pt-[36px] font-['Poppins'] text-lg">
             <p className="text-orange font">Cómo funciona el VIH</p>
             <h1>¿Qué es el VIH?</h1>
             <h3>21/02/2017</h3>
