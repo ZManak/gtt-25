@@ -34,7 +34,7 @@ export default function Chat() {
     const fetchData = async () => {
       try {
         const response = await axios.post(
-          'https://ec2-3-128-94-58.us-east-2.compute.amazonaws.com/chat',
+          'https://ec2-3-128-94-58.us-east-2.compute.amazonaws.com:5000/chat',
           {
             question: msg,
           },
