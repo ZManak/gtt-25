@@ -1,5 +1,6 @@
 import React from 'react';
 import quees from '../../../assets/que-es.svg';
+import play_arrow from '../../../assets/play_arrow.svg';
 
 const Article = () => {
   return (
@@ -76,33 +77,43 @@ const Article = () => {
               Servicio Nacional de Salud Británico [NHS]).
             </p>
             <br />
-            <ul className="inline">
+            <p>
+              <b>Temáticas relacionadas</b>
+            </p>
+            <ul className="inline flex space-x-[20px]">
               <li>
-                <a href="#">Temática 1</a>
+                <a href="#">Información básica </a>
               </li>
               <li>
-                <a href="#">Temática 2</a>
+                <a href="#">Mitos y hechos </a>
               </li>
               <li>
-                <a href="#">Temática 3</a>
+                <a href="#">Recién infectado </a>
               </li>
             </ul>
           </div>
-          <div className="absolute rounded-2xl w-[300px] h-[159px] bg-orange3 ml-[1100px] mt-[100px]">
-            <p className='abosolute ml-6 w-[216px] p-[10px] ml-[10px] font-["Poppins"] font-medium text-lg'>
+          <div className="absolute rounded-2xl w-[300px] h-[185px] bg-orange3 ml-[1100px] mt-[100px]">
+            <p className='abosolute ml-6 w-[216px] p-[10px] ml-[10px] font-["Poppins"] font-medium text-lg text-green'>
               Sigue leyendo
             </p>
-            <ul className="p-[10px]">
-              <li>
-                <a href="#">¿Cuál es la diferencia entre el VIH y el SIDA?</a>
-              </li>
-              <li>
-                <a href="#">El VIH y el sistema inmunológico</a>
-              </li>
-              <li>
-                <a href="#">Mitos y hechos</a>
-              </li>
-            </ul>
+            <div className="p-[10px] text-green flex-column">
+              <div className="flex">
+                <a href="#" className="flex">
+                  <img src={play_arrow} alt="Flecha" />
+                  ¿Cuál es la diferencia entre el VIH y el SIDA?
+                </a>
+              </div>
+              <br />
+              <a href="#" className="flex">
+                <img src={play_arrow} alt="Flecha" />
+                El VIH y el sistema inmunológico
+              </a>
+              <br />
+              <a href="#" className="flex">
+                <img src={play_arrow} alt="Flecha" />
+                Mitos y hechos
+              </a>
+            </div>
           </div>
         </div>
       </section>
